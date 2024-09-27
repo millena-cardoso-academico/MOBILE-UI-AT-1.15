@@ -1,0 +1,100 @@
+.amigos-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.amigos-titulo {
+  text-align: center;
+  color: purple;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.amigo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.amigo-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.amigo-nome {
+  font-weight: bold;
+  color: purple;
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.amigo-nome:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.amigo-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.amigos-em-comum {
+  font-size: 12px;
+  color: gray;
+}
+
+.sidebar {
+  position: static;
+  display: block;
+  width: 100%;
+}
+
+.amigos-container,
+.sugestoes-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .amigos-container {
+    padding: 15px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .amigos-titulo {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .amigo-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .amigo-item img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .amigo-nome {
+    font-size: 16px;
+  }
+
+  .amigos-em-comum {
+    font-size: 14px;
+  }
+}

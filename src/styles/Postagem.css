@@ -1,0 +1,77 @@
+.postagem-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.postagem-imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.postagem-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.postagem-avatar {
+  margin-right: 10px;
+}
+
+.postagem-titulo {
+  font-size: 18px;
+  margin: 5px 0;
+  color: purple;
+  margin-top: 10px;
+}
+
+.postagem-texto {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.postagem-data {
+  font-size: 12px;
+  color: gray;
+}
+
+.postagem-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .postagem-container {
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 70px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .postagem-imagem {
+    max-width: 500px;
+  }
+
+  .postagem-titulo {
+    font-size: 22px;
+  }
+
+  .postagem-texto {
+    font-size: 18px;
+  }
+
+  .postagem-data {
+    font-size: 16px;
+  }
+}

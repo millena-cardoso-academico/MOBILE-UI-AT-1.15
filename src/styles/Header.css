@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  color: purple;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-icones {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
